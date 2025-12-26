@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    unsigned char x = 255;
-    printf("%d\n", x);
+    signed char x = -126;
+    printf("%c\n", x);
     return 0;
 }
