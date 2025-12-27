@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    unsigned char x = 258;
-    printf("%c\n", x);
+    int i ;
+    i = printf("Tekendra");
+    printf("%d",i);
     return 0;
 }
